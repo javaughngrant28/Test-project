@@ -1,5 +1,7 @@
 import React from "react";
 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import { useState } from "react";
 
 import LoginPage from "./pages/LoginPage";
@@ -17,12 +19,22 @@ import Queue from "./pages/Queue";
 
 
 
+
+
 export default function  App() {
     
   return (
-    <div className="app_div">
-      <Queue/>
-    </div>
+         
+  <Router>
+
+    <Routes>
+      <Route exact path='/' element={<HomeAdmin/>} />
+      <Route exact path='/login' element={<LoginPage/>} />
+      <Route exact path='/signup' element={<SignUpPage/>} />
+    </Routes>
+
+  </Router>
+
   );
 
 }

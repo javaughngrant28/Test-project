@@ -4,8 +4,8 @@ export default function TwoBtns()
 {
     return(
         <div className="two_btn_div">
-            <input className="two_btn" type={'button'} value={'LOGIN'} />
-            <input className="two_btn" type={'button'} value={'JOIN QUEUE'} />
+            <a href="/login" className="two_btn">LOGIN</a>
+            <a href="#" className="two_btn">JOIN QUEUE</a>
         </div>
     )
 }

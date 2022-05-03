@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import LoginForm from "../components/LoginForm"
+import LoginUser from "../components/login-user.component";
 
 export default function LoginPage()
 {
@@ -9,7 +9,7 @@ export default function LoginPage()
              <Header title={"queue login"}/>
 
              <div className="screen_body">
-                <LoginForm/>
+                <LoginUser/>
              </div>
 
         </div>

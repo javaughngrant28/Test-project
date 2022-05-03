@@ -93,7 +93,7 @@
 
 .input_label{
   display: flex;
-  border: red 1px solid;
+  /* border: red 1px solid; */
   /* text-align: center; */
   font-size: 2rem; 
   color: #FFFFFF;
@@ -112,6 +112,11 @@
 }
 
 .login_btn{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 40%;
   background-color: #2699FB;
   border: none;
@@ -119,6 +124,8 @@
   text-align: center;
   font-size: 2rem;
   border-radius: 5px;
+  text-decoration: none;
+  
 }
 
 .registration_ling_div{
@@ -226,6 +233,9 @@
 }
 
 .two_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 3rem;
   width: 28%;
   background-color: #2699FB;
@@ -233,6 +243,7 @@
   border-radius: 5px;
   color: #FFFFFF;
   font-size: larger;
+  text-decoration: none;
 }
 
 /* ---------------------------------- USER QUEUE-------------------------------------- */
@@ -295,3 +306,5 @@
 }
 
 /* -------------------------------- User queue------------------------------------ */
+
+

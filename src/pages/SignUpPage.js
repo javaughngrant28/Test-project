@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "../components/Header";
 
-import SignUpForm from "../components/SignUpForm"
+import CreateUser from "../components/create-user.component"
 
 export default function SignUpPage()
 {
@@ -11,7 +11,7 @@ export default function SignUpPage()
             <Header title='QUEUe REGISTRATION' />
 
             <div className="screen_body">
-                <SignUpForm/>
+                <CreateUser/>
              </div>
             
         </div>
